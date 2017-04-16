@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinohacks.tinohacksproject.ItalianDairy">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Dairy-Free Eggplant "Parm"'
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="357dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raw Vegan Tiramisu"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="259dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegan Lasagna With Ricotta Cheese"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="167dp"
+        android:layout_above="@+id/textView21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Italian Chickpea Flat Bread"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="83dp"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Italian Dishes without Dairy"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Online"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="417dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinohacks.tinohacksproject.IndianPeanuts">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Online"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="437dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coriander Tandoori Chicken"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="398dp"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy Pan Pickle"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="318dp"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coconut Fish Dream"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="246dp"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rustic Dhal"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="176dp"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charred Stuffed Peppers"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_marginBottom="61dp"
+        android:layout_above="@+id/button11"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indian Dishes without Peanuts"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+</RelativeLayout>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinohacks.tinohacksproject.Chinese_Egg">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Order Online"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthy Broccoli Beef"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="341dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steeped Chinese Ginger Chicken in Little Lettuce Cups"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:layout_marginTop="96dp"
+        android:layout_below="@+id/textView37"
+        android:layout_alignLeft="@+id/textView37"
+        android:layout_alignStart="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spicy Sichuan Green Beans with Ground Pork"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="114dp"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/textView38"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinese Dishes without Dairy"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

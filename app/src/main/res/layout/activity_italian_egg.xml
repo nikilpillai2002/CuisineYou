@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinohacks.tinohacksproject.ItalianEgg">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Order Online"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gnocchi With Lemon Chili Garlic Sauce"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="384dp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="73dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eggplant Caponata With Grilled Polenta"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="278dp"
+        android:layout_below="@+id/textView26"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seared Cauliflower and Chickpeas Piccata"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="194dp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hummus and Veggie Stuffed Calzone"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="103dp"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/textView27"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Italian Dishes without Eggs"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

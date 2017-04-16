@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinohacks.tinohacksproject.ChinesePeanut">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Order Online"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthy Broccoli Beef"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="348dp"
+        android:layout_marginTop="88dp"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steeped Chinese Ginger Chicken in Little Lettuce Cups"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="366dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stir-fried Beef and Onions"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="301dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinese Dishes without Peanuts"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="243dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+</RelativeLayout>
